@@ -1,0 +1,56 @@
+.header{
+    height: 70px;
+    display: flex;
+    background-color: #111827;
+}
+
+.logo{
+    /* width: 20%; */
+    height: 100%;
+    display: flex;
+    padding: 0rem 10px;
+    /* border: 2px solid yellow; */
+}
+
+.logoContent{
+    /* width: 80%; */
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 1.5rem;
+    /* border: 2px solid brown; */
+}
+
+.logo-image img{
+    /* border: 1px solid red; */
+    width: 2.5rem; 
+}
+
+.logo-text{
+    /* border: 1px solid greenyellow; */
+}
+
+.logo p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mid-nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+    margin-left: 170px;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid wheat; */
+}
+
+.header-button{
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
